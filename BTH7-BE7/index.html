@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Website Phim Hoạt Hình Cho Trẻ Em</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <header class="header">
+        <div class="logo">
+            🎬 <span>HOẠT HÌNH KID</span>
+        </div>
+        <div class="search-box">
+            <input type="text" placeholder="Tìm kiếm tên phim...">
+            <button type="button">Tìm kiếm</button>
+        </div>
+    </header>
+
+    <nav class="head-link">
+        <ul>
+            <li><a href="#" class="active">Trang chủ</a></li>
+            <li><a href="#">Phim Mới Cập Nhật</a></li>
+            <li><a href="#">Xem Nhiều Nhất</a></li>
+            <li><a href="#">Thuyết Minh Tiếng Việt</a></li>
+            <li><a href="#">Liên Hệ</a></li>
+        </ul>
+    </nav>
+
+    <div class="main-container">
+        
+        <aside class="left-content">
+            <h3>Danh Sách Phim</h3>
+            <ul class="video-list">
+                <li class="active"><a href="#video-1">▶️ Phim 1: Doremon Thuyết Minh (YouTube)</a></li>
+                <li><a href="#video-2">▶️ Phim 2: Hoạt Hình Ngắn (Local Video)</a></li>
+                <li><a href="#">▶️ Phim 3: Tom & Jerry Tập Đặc Biệt</a></li>
+                <li><a href="#">▶️ Phim 4: Phim Hoạt Hình Cổ Tích</a></li>
+                <li><a href="#">▶️ Phim 5: Đi Tìm Nemo HD</a></li>
+            </ul>
+        </aside>
+
+        <main class="right-content">
+            <div class="video-player-card" id="video-1">
+                <h2>Doraemon: Nobita và Những Bạn Bè Phép Thuật (YouTube Embed)</h2>
+                <div class="video-responsive">
+                    <iframe 
+                        src="https://www.youtube-nocookie.com/embed/dQw4w9WgXcQ" 
+                        title="YouTube video player" 
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+                        allowfullscreen>
+                    </iframe>
+                </div>
+                <p class="video-desc">Phim hoạt hình chất lượng cao HD 1080p, audio thuyết minh Tiếng Việt chuẩn dành cho thiếu nhi.</p>
+            </div>
+
+            <div class="video-player-card" id="video-2" style="margin-top: 30px;">
+                <h2>Video Hoạt Hình Mẫu (HTML5 Local Video)</h2>
+                <div class="video-responsive">
+                    <video controls poster="https://via.placeholder.com/800x450/3498db/ffffff?text=Poster+Phim+Hoat+Hinh">
+                        <source src="https://www.w3schools.com/html/mov_bbb.mp4" type="video/mp4">
+                        Trình duyệt của bạn không hỗ trợ thẻ video HTML5.
+                    </video>
+                </div>
+                <p class="video-desc">Phim ngắn thuyết minh tiếng Việt, chống giật lag, không chứa quảng cáo.</p>
+            </div>
+        </main>
+
+    </div>
+
+    <footer class="footer">
+        <p>&copy; 2026 Bản quyền thuộc về Website Phim Hoạt Hình An Toàn Cho Trẻ Em.</p>
+        <p>Nội dung chất lượng cao HD 720p - 1080p | Thuyết minh Tiếng Việt | Không quảng cáo</p>
+    </footer>
+
+</body>
+</html>
