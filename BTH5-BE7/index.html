@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Giao diện Facebook Giản lược</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <header class="header">
+        <div class="header-left">
+            <div class="logo">facebook</div>
+            <input type="text" class="search-box" placeholder="Tìm kiếm trên Facebook">
+        </div>
+        <div class="header-center">
+            <a href="#" class="nav-item active">Trang chủ</a>
+            <a href="#" class="nav-item">Video</a>
+            <a href="#" class="nav-item">Marketplace</a>
+            <a href="#" class="nav-item">Nhóm</a>
+        </div>
+        <div class="header-right">
+            <div class="user-avatar"></div>
+            <div class="icon-btn">💬</div>
+            <div class="icon-btn">🔔</div>
+        </div>
+    </header>
+
+    <div class="app-body">
+        
+        <aside class="sidebar left-sidebar">
+            <ul>
+                <li class="active"><span class="icon">👤</span> <strong>Trường</strong></li>
+                <li><span class="icon">👥</span> Bạn bè</li>
+                <li><span class="icon">⏰</span> Kỷ niệm</li>
+                <li><span class="icon">🔖</span> Đã lưu</li>
+                <li><span class="icon">👨‍👩‍👧‍👦</span> Nhóm</li>
+                <li><span class="icon">📹</span> Video</li>
+                <li><span class="icon">🏪</span> Marketplace</li>
+            </ul>
+        </aside>
+
+        <main class="main-content">
+            
+            <div class="card create-post">
+                <div class="post-input-container">
+                    <div class="user-avatar"></div>
+                    <input type="text" placeholder="Trường ơi, bạn đang nghĩ gì thế?">
+                </div>
+                <hr>
+                <div class="post-actions">
+                    <button>🎥 Video trực tiếp</button>
+                    <button>🖼️ Ảnh/video</button>
+                    <button>😊 Cảm xúc/hoạt động</button>
+                </div>
+            </div>
+
+            <div class="card post">
+                <div class="post-header">
+                    <div class="user-avatar"></div>
+                    <div>
+                        <strong>Lập trình Web HTML/CSS</strong>
+                        <div class="post-time">2 giờ trước</div>
+                    </div>
+                </div>
+                <div class="post-body">
+                    Hôm nay chúng ta cùng thực hành dựng giao diện Facebook bằng CSS Fixed Position và Flexbox! 🚀
+                </div>
+                <div class="post-footer">
+                    <button>👍 Thích</button>
+                    <button>💬 Bình luận</button>
+                    <button>↪️ Chia sẻ</button>
+                </div>
+            </div>
+
+            <div class="card post">
+                <div class="post-header">
+                    <div class="user-avatar"></div>
+                    <div>
+                        <strong>CodeGym Alumni</strong>
+                        <div class="post-time">5 giờ trước</div>
+                    </div>
+                </div>
+                <div class="post-body">
+                    Thực hành thiết kế Layout chuẩn CSS với Fixed Header và Sidebar trợ giúp việc cố định các khung điều hướng khi cuộn trang web.
+                </div>
+                <div class="post-footer">
+                    <button>👍 Thích</button>
+                    <button>💬 Bình luận</button>
+                    <button>↪️ Chia sẻ</button>
+                </div>
+            </div>
+
+            <div class="card post">
+                <div class="post-header">
+                    <div class="user-avatar"></div>
+                    <div>
+                        <strong>Tin tức Công nghệ</strong>
+                        <div class="post-time">1 ngày trước</div>
+                    </div>
+                </div>
+                <div class="post-body">
+                    Mô hình Box Model và các thuộc tính Position trong CSS rất quan trọng đối với các bạn thiết kế giao diện Web Front-end.
+                </div>
+                <div class="post-footer">
+                    <button>👍 Thích</button>
+                    <button>💬 Bình luận</button>
+                    <button>↪️ Chia sẻ</button>
+                </div>
+            </div>
+
+        </main>
+
+        <aside class="sidebar right-sidebar">
+            <div class="sidebar-title">Người liên hệ</div>
+            <ul>
+                <li><span class="user-avatar small"></span> Nguyễn Văn A</li>
+                <li><span class="user-avatar small"></span> Trần Thị B</li>
+                <li><span class="user-avatar small"></span> Lê Văn C</li>
+                <li><span class="user-avatar small"></span> Phạm Hoàng D</li>
+                <li><span class="user-avatar small"></span> Vũ Hải E</li>
+            </ul>
+        </aside>
+
+    </div>
+
+</body>
+</html>
